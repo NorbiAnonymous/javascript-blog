@@ -15,3 +15,7 @@ Podobnie jak w poprzednim module, przygotuj środowisko nowego projektu o nazwie
     9.Skopiuj kod HTML z szablonu załączonego powyżej i wstaw go wewnątrz tagu body.
     10.Przed zamknięciem tagu body (czyli przed tagiem </body>) załącz plik script.js w następujący sposób: <script src="js/script.js"></script>
     11.Skopiuj kod SCSS z powyższego szablonu i wklej go do swojego pliku style.scss.
+
+    12.Modyfikacja task runnera
+    "watch:browsersync": "browser-sync start --server --files \"css/_.css\" \"_.html\" \"js/\*.js\"",
+    Z tak przygotowanym środowiskiem jesteśmy gotowi do rozpoczęcia pisania naszego skryptu!
