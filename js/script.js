@@ -45,6 +45,9 @@
 		titleList.innerHTML = '';
 		/* for each article */
 		const articles = document.querySelectorAll(optArticleSelector);
+
+		
+
 		for (let article of articles) {
 			/* get the article id */
 			const articleId = article.getAttribute('id');
@@ -53,8 +56,10 @@
 			/* get the title from the title element */
 			const articleTitle = titleElement.innerHTML;
 			/* create HTML of the link */
-
+			const linkHTML = '<li><a href="#' + articleId + '"><span>' + articleTitle + '</span></a></li>';
+			console.log('Link HTML', linkHTML);
 			/* insert link into titleList */
+			titleList.innerHTML = titleList.innerHTML + linkHTML;
 		}
 	}
 
