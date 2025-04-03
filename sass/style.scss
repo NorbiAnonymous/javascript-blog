@@ -56,6 +56,7 @@ body {
 
 .posts {
 	flex: 2 0 0;
+	position: relative;
 }
 
 .sidebar,
@@ -75,6 +76,12 @@ body {
 	font-size: 104px;
 	line-height: 1;
 	text-align: center;
+	background: linear-gradient(#e66465, #9198e5);
+	padding: 30px;
+
+	&:hover {
+		color: #fff;
+	}
 }
 
 /* Lists */
@@ -105,9 +112,23 @@ body {
 /* Post */
 
 .post {
-	display: none;
+	// display: none;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	opacity: 0;
+	z-index: 0;
+	transition: opacity 0.5s ease-in-out;
+	pointer-events: none;
+	padding: 10px;
+
 	&.active {
-		display: block;
+		// display: block;
+		opacity: 1;
+		z-index: 10;
+		pointer-events: auto;
 	}
 }
 
