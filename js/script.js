@@ -51,7 +51,7 @@
 			/* find the title element */
 			const titleElement = article.querySelector(optTitleSelector);
 			/* get the title from the title element */
-
+			const articleTitle = titleElement.innerHTML;
 			/* create HTML of the link */
 
 			/* insert link into titleList */
