@@ -81,6 +81,8 @@
       const articleTags = article.getAttribute("data-tags");
       console.log(articleTags);
       /* 6.split tags into array */
+      const articleTagsArray = articleTags.split(" ");
+      console.log(articleTagsArray);
       /* 7.START LOOP: for each tag */
       /* 8.generate HTML of the link */
       /* 9.add generated code to html variable */
