@@ -130,8 +130,11 @@
     const tagLinks = document.querySelectorAll(`a[href="${href}"]`);
     console.log(tagLinks);
     /* 10.START LOOP: for each found tag link */
-    /* 11.add class active */
-    /* 12.END LOOP: for each found tag link */
+    for (let tagLink of tagLinks) {
+      console.log(tagLink);
+      /* 11.add class active */
+      /* 12.END LOOP: for each found tag link */
+    }
     /* 13.execute function "generateTitleLinks" with article selector as argument */
   }
 
