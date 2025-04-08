@@ -75,6 +75,8 @@
       const tagsWrapper = article.querySelector(optArticleTagsSelector);
       console.log(tagsWrapper);
       /* 4.make html variable with empty string */
+      let html = "";
+      console.log(html);
       /* 5.get tags from data-tags attribute */
       /* 6.split tags into array */
       /* 7.START LOOP: for each tag */
