@@ -133,9 +133,11 @@
     for (let tagLink of tagLinks) {
       console.log(tagLink);
       /* 11.add class active */
+      tagLink.classList.add("active");
       /* 12.END LOOP: for each found tag link */
     }
     /* 13.execute function "generateTitleLinks" with article selector as argument */
+	
   }
 
   function addClickListenersToTags() {
