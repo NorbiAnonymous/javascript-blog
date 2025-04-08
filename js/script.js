@@ -105,19 +105,20 @@
 
   function tagClickHandler(event) {
     console.log(event);
-    /* prevent default action for this event */
-    /* make new constant named "clickedElement" and give it the value of "this" */
-    /* make a new constant "href" and read the attribute "href" of the clicked element */
-    /* make a new constant "tag" and extract tag from the "href" constant */
-    /* find all tag links with class active */
-    /* START LOOP: for each active tag link */
-    /* remove class active */
-    /* END LOOP: for each active tag link */
-    /* find all tag links with "href" attribute equal to the "href" constant */
-    /* START LOOP: for each found tag link */
-    /* add class active */
-    /* END LOOP: for each found tag link */
-    /* execute function "generateTitleLinks" with article selector as argument */
+    /* 1.prevent default action for this event */
+    event.preventDefault();
+    /* 2.make new constant named "clickedElement" and give it the value of "this" */
+    /* 3.make a new constant "href" and read the attribute "href" of the clicked element */
+    /* 4.make a new constant "tag" and extract tag from the "href" constant */
+    /* 5.find all tag links with class active */
+    /* 6.START LOOP: for each active tag link */
+    /* 7.remove class active */
+    /* 8.END LOOP: for each active tag link */
+    /* 9.find all tag links with "href" attribute equal to the "href" constant */
+    /* 10.START LOOP: for each found tag link */
+    /* 11.add class active */
+    /* 12.END LOOP: for each found tag link */
+    /* 13.execute function "generateTitleLinks" with article selector as argument */
   }
 
   function addClickListenersToTags() {
