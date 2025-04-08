@@ -114,6 +114,8 @@
     const href = clickedElement.getAttribute("href");
     console.log(href);
     /* 4.make a new constant "tag" and extract tag from the "href" constant */
+    const tag = href.replace("#tag-", "");
+    console.log(tag);
     /* 5.find all tag links with class active */
     /* 6.START LOOP: for each active tag link */
     /* 7.remove class active */
