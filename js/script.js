@@ -111,6 +111,8 @@
     const clickedElement = this;
     console.log(clickedElement);
     /* 3.make a new constant "href" and read the attribute "href" of the clicked element */
+    const href = clickedElement.getAttribute("href");
+    console.log(href);
     /* 4.make a new constant "tag" and extract tag from the "href" constant */
     /* 5.find all tag links with class active */
     /* 6.START LOOP: for each active tag link */
