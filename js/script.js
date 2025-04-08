@@ -78,6 +78,8 @@
       let html = "";
       console.log(html);
       /* 5.get tags from data-tags attribute */
+      const articleTags = article.getAttribute("data-tags");
+      console.log(articleTags);
       /* 6.split tags into array */
       /* 7.START LOOP: for each tag */
       /* 8.generate HTML of the link */
