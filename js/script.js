@@ -66,7 +66,10 @@
   function generateTags() {
     console.log("optArticleTagsSelector:", optArticleTagsSelector);
     /* 1.find all articles */
+    const articles = document.querySelectorAll(optArticleSelector);
+    console.log(articles);
     /* 2.START LOOP: for every article: */
+
     /* 3.find tags wrapper */
     /* 4.make html variable with empty string */
     /* 5.get tags from data-tags attribute */
