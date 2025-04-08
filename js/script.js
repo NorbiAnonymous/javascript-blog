@@ -90,9 +90,11 @@
         const tagHTML = `<li><a href="#tag-${tag}">${tag}</a></li>`;
         console.log(tagHTML);
         /* 9.add generated code to html variable */
+
         /* 10.END LOOP: for each tag */
       }
       /* 11.insert HTML of all the links into the tags wrapper */
+
       /* 12.END LOOP: for every article: */
     }
   }
