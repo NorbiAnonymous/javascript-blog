@@ -123,9 +123,12 @@
     for (let activeTag of activeTags) {
       console.log(activeTag);
       /* 7.remove class active */
+      activeTag.classList.remove("active");
       /* 8.END LOOP: for each active tag link */
     }
     /* 9.find all tag links with "href" attribute equal to the "href" constant */
+    const tagLinks = document.querySelectorAll(`a[href="${href}"]`);
+    console.log(tagLinks);
     /* 10.START LOOP: for each found tag link */
     /* 11.add class active */
     /* 12.END LOOP: for each found tag link */
