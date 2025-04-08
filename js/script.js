@@ -117,9 +117,14 @@
     const tag = href.replace("#tag-", "");
     console.log(tag);
     /* 5.find all tag links with class active */
+    const activeTags = document.querySelectorAll('a.active[href^="#tag-"]');
+    console.log(activeTags);
     /* 6.START LOOP: for each active tag link */
-    /* 7.remove class active */
-    /* 8.END LOOP: for each active tag link */
+    for (let activeTag of activeTags) {
+      console.log(activeTag);
+      /* 7.remove class active */
+      /* 8.END LOOP: for each active tag link */
+    }
     /* 9.find all tag links with "href" attribute equal to the "href" constant */
     /* 10.START LOOP: for each found tag link */
     /* 11.add class active */
