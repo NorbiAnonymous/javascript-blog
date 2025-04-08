@@ -84,9 +84,12 @@
       const articleTagsArray = articleTags.split(" ");
       console.log(articleTagsArray);
       /* 7.START LOOP: for each tag */
-      /* 8.generate HTML of the link */
-      /* 9.add generated code to html variable */
-      /* 10.END LOOP: for each tag */
+      for (let tag of articleTagsArray) {
+        console.log(tag);
+        /* 8.generate HTML of the link */
+        /* 9.add generated code to html variable */
+        /* 10.END LOOP: for each tag */
+      }
       /* 11.insert HTML of all the links into the tags wrapper */
       /* 12.END LOOP: for every article: */
     }
