@@ -124,6 +124,8 @@ body {
   pointer-events: none;
   padding: 10px;
 
+  overflow: hidden;
+
   &.active {
     // display: block;
     opacity: 1;
@@ -141,4 +143,14 @@ body {
   p {
     margin: 0 10px 0 0;
   }
+}
+
+.post-content {
+  max-height: 120px;
+  overflow: hidden;
+  transition: max-height 0.5s ease-in-out;
+}
+
+.post:hover .post-content {
+  max-height: 245px;
 }
