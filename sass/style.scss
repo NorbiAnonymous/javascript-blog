@@ -71,13 +71,16 @@ body {
 /* Logo */
 
 .logo {
+  text-transform: uppercase;
+  padding: 40px 0;
   font-family: $font-logo;
   font-weight: 400;
   font-size: 104px;
-  line-height: 1;
   text-align: center;
-  background: linear-gradient(#e66465, #9198e5);
-  padding: 30px;
+  line-height: 1;
+  background: linear-gradient(135deg, #e66465, #9198e5);
+  border-radius: 25px;
+  transition: background 0.75s ease, color 0.75s ease, border-radius 0.75s ease;
 
   &:hover {
     color: #fff;
